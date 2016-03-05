@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5c1b256-bf2e-4565-a852-e7aa48cb43c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/csv/coqueluche.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/csv/dengue.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/csv/febremaculosa.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/csv/hivgestantes.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/csv/leptospirose.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/csv/meningite.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/csv/sifilis.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smsc-statistics.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/smsc/API/EstatisticaAPI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/smsc/Entity/Doenca.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/smsc/Service/CSVReaderClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/smsc/Service/CSVReaderClass.java" afterPath="$PROJECT_DIR$/src/br/com/smsc/Service/CSVReaderClass.java" />
     </list>
     <ignored path="smsc-crawler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,8 +40,8 @@
       <file leaf-file-name="CSVReaderClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/com/smsc/Service/CSVReaderClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33027524">
-              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.6086956">
+              <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/tests/br/com/smsc/Service/CSVReaderClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -450,13 +427,14 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last.edited.regexp" value="1        AREA ABRANG CS" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -992,29 +970,11 @@
       <option name="number" value="Default" />
       <updated>1457191616103</updated>
       <workItem from="1457191617457" duration="10436000" />
-      <workItem from="1457205135332" duration="4334000" />
+      <workItem from="1457205135332" duration="6449000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CSVReaderClassTest_testGetCSVContent - 2016.03.05 at 17h 18m 37s.xml">
-      <configuration name="CSVReaderClassTest.testGetCSVContent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CSVReaderClassTest_testGetCSVContent - 2016.03.05 at 17h 18m 40s.xml">
-      <configuration name="CSVReaderClassTest.testGetCSVContent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CSVReaderClassTest_testGetCSVContent - 2016.03.05 at 17h 19m 08s.xml">
-      <configuration name="CSVReaderClassTest.testGetCSVContent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CSVReaderClassTest_testGetCSVContent - 2016.03.05 at 17h 19m 15s.xml">
-      <configuration name="CSVReaderClassTest.testGetCSVContent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CSVReaderClassTest_testGetCSVContent - 2016.03.05 at 17h 19m 17s.xml">
-      <configuration name="CSVReaderClassTest.testGetCSVContent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CSVReaderClassTest_testGetCSVContent - 2016.03.05 at 17h 20m 17s.xml">
-      <configuration name="CSVReaderClassTest.testGetCSVContent" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CSVReaderClassTest_testGetCSVContent - 2016.03.05 at 17h 20m 20s.xml">
       <configuration name="CSVReaderClassTest.testGetCSVContent" configurationId="JUnit" />
     </history-entry>
@@ -1027,9 +987,27 @@
     <history-entry file="CSVReaderClassTest_testGetCSVContent - 2016.03.05 at 17h 23m 56s.xml">
       <configuration name="CSVReaderClassTest.testGetCSVContent" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CSVReaderClassTest_testGetCSVContent - 2016.03.05 at 17h 29m 53s.xml">
+      <configuration name="CSVReaderClassTest.testGetCSVContent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVReaderClassTest_testGetCSVContent - 2016.03.05 at 17h 30m 52s.xml">
+      <configuration name="CSVReaderClassTest.testGetCSVContent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVReaderClassTest_testGetCSVContent - 2016.03.05 at 17h 31m 10s.xml">
+      <configuration name="CSVReaderClassTest.testGetCSVContent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVReaderClassTest_testGetCSVContent - 2016.03.05 at 17h 40m 22s.xml">
+      <configuration name="CSVReaderClassTest.testGetCSVContent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVReaderClassTest_testGetCSVContent - 2016.03.05 at 17h 56m 21s.xml">
+      <configuration name="CSVReaderClassTest.testGetCSVContent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVReaderClassTest_testGetCSVContent - 2016.03.05 at 17h 59m 48s.xml">
+      <configuration name="CSVReaderClassTest.testGetCSVContent" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14770000" />
+    <option name="totallyTimeSpent" value="16885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -1042,23 +1020,23 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4036545" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.551495" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38538206" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19650987" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29734218" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29734218" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1066,7 +1044,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/smsc/Service/CSVReaderClass.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1129,14 +1115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/br/com/smsc/Service/CSVReaderClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/smsc/Entity/Doenca.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1153,10 +1131,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/br/com/smsc/Service/CSVReaderClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/smsc/Service/CSVReaderClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33027524">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.6086956">
+          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
