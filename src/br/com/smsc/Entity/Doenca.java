@@ -7,10 +7,9 @@ import java.util.HashMap;
  */
 public class Doenca {
     private String nome;
-    private HashMap<String, Integer> faixaEtaria;
     private int ano;
     private int total;
-    private HashMap<String, Integer> bairros;
+    private HashMap<String, IdadeInfo> bairros;
 
     public String getNome() {
         return nome;
@@ -21,22 +20,12 @@ public class Doenca {
         return this;
     }
 
-    public HashMap<String, Integer> getFaixaEtaria() {
-        return faixaEtaria;
-    }
-
-    public Doenca setFaixaEtaria(HashMap<String, Integer> faixaEtaria) {
-        this.faixaEtaria = faixaEtaria;
-        return this;
-    }
-
-    public HashMap<String, Integer> getBairros() {
+    public HashMap<String, IdadeInfo> getBairros() {
         return bairros;
     }
 
-    public Doenca setBairros(HashMap<String, Integer> bairros) {
+    public void setBairros(HashMap<String, IdadeInfo> bairros) {
         this.bairros = bairros;
-        return this;
     }
 
     public int getAno() {
