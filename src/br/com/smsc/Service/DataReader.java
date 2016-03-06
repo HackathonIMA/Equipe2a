@@ -62,7 +62,7 @@ public class DataReader {
             String temp = "";
             String[] partialsNames = name.split(" ");
             for (int j = 1; j < partialsNames.length; j++) {
-                temp += firstCharToUpper(partialsNames[j]);
+                temp = partialsNames[0] + " " + firstCharToUpper(partialsNames[j]);
             }
             name = temp;
         }

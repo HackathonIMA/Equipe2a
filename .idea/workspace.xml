@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5c1b256-bf2e-4565-a852-e7aa48cb43c2" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/smsc/Entity/Doenca.java" afterPath="$PROJECT_DIR$/src/br/com/smsc/Entity/Informacoes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/smsc/Entity/Doenca.class" afterPath="$PROJECT_DIR$/target/classes/br/com/smsc/Entity/Doenca.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/smsc/Service/DataReader.class" afterPath="$PROJECT_DIR$/target/classes/br/com/smsc/Service/DataReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/br/com/smsc/Service/DataReaderTest.class" afterPath="$PROJECT_DIR$/target/test-classes/br/com/smsc/Service/DataReaderTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/smsc/Service/DataReader.java" afterPath="$PROJECT_DIR$/src/br/com/smsc/Service/DataReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/br/com/smsc/Service/DataReaderTest.java" afterPath="$PROJECT_DIR$/src/tests/br/com/smsc/Service/DataReaderTest.java" />
     </list>
     <ignored path="smsc-crawler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/br/com/smsc/Entity/Informacoes.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#547#548#0" expanded="true" />
@@ -51,8 +46,8 @@
       <file leaf-file-name="DataReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/smsc/Service/DataReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.030303">
-              <caret line="39" column="41" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="41" />
+            <state vertical-scroll-proportion="-36.545456">
+              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,11 +58,9 @@
       <file leaf-file-name="DataReaderTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/br/com/smsc/Service/DataReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0625">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.13881747">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,9 +109,9 @@
         <option value="$PROJECT_DIR$/src/br/com/smsc/Entity/FaixaEtaria.java" />
         <option value="$PROJECT_DIR$/src/br/com/smsc/Entity/IdadeInfo.java" />
         <option value="$PROJECT_DIR$/src/br/com/smsc/Entity/Doenca.java" />
-        <option value="$PROJECT_DIR$/src/br/com/smsc/Service/DataReader.java" />
-        <option value="$PROJECT_DIR$/src/br/com/smsc/Entity/Informacoes.java" />
         <option value="$PROJECT_DIR$/src/tests/br/com/smsc/Service/DataReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/br/com/smsc/Entity/Informacoes.java" />
+        <option value="$PROJECT_DIR$/src/br/com/smsc/Service/DataReader.java" />
       </list>
     </option>
   </component>
@@ -1090,25 +1083,25 @@
       <option name="number" value="Default" />
       <updated>1457191616103</updated>
       <workItem from="1457191617457" duration="10436000" />
-      <workItem from="1457205135332" duration="25424000" />
+      <workItem from="1457205135332" duration="25599000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DataReaderTest_testGetCSVContent_successConceicaoCoqueluche - 2016.03.05 at 23h 38m 42s.xml">
-      <configuration name="DataReaderTest.testGetCSVContent_successConceicaoCoqueluche" configurationId="JUnit" />
+    <history-entry file="DataReaderTest - 2016.03.05 at 23h 48m 56s.xml">
+      <configuration name="DataReaderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataReaderTest_testGetCSVContent_successConceicaoCoqueluche - 2016.03.05 at 23h 39m 01s.xml">
-      <configuration name="DataReaderTest.testGetCSVContent_successConceicaoCoqueluche" configurationId="JUnit" />
+    <history-entry file="DataReaderTest - 2016.03.05 at 23h 49m 42s.xml">
+      <configuration name="DataReaderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataReaderTest_testGetCSVContent_successConceicaoCoqueluche - 2016.03.05 at 23h 40m 26s.xml">
-      <configuration name="DataReaderTest.testGetCSVContent_successConceicaoCoqueluche" configurationId="JUnit" />
+    <history-entry file="DataReaderTest - 2016.03.05 at 23h 51m 18s.xml">
+      <configuration name="DataReaderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataReaderTest_testGetCSVContent_successConceicaoCoqueluche - 2016.03.05 at 23h 40m 51s.xml">
-      <configuration name="DataReaderTest.testGetCSVContent_successConceicaoCoqueluche" configurationId="JUnit" />
+    <history-entry file="DataReaderTest - 2016.03.05 at 23h 51m 33s.xml">
+      <configuration name="DataReaderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataReaderTest_testGetCSVContent_successConceicaoCoqueluche - 2016.03.05 at 23h 40m 53s.xml">
-      <configuration name="DataReaderTest.testGetCSVContent_successConceicaoCoqueluche" configurationId="JUnit" />
+    <history-entry file="DataReaderTest - 2016.03.05 at 23h 51m 43s.xml">
+      <configuration name="DataReaderTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DataReaderTest_testGetCSVContent_successConceicaoCoqueluche - 2016.03.05 at 23h 41m 02s.xml">
       <configuration name="DataReaderTest.testGetCSVContent_successConceicaoCoqueluche" configurationId="JUnit" />
@@ -1127,7 +1120,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35860000" />
+    <option name="totallyTimeSpent" value="36035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -1140,7 +1133,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46843854" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33388704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36710963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19650987" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1151,7 +1144,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28737542" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30066445" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1181,12 +1174,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/br/com/smsc/Service/DataReader.java</url>
-          <line>26</line>
+          <line>61</line>
           <properties />
-          <option name="timeStamp" value="59" />
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="60" />
+      <option name="time" value="63" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1223,9 +1216,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1308,7 +1299,7 @@
     <entry file="file://$PROJECT_DIR$/src/br/com/smsc/Entity/Informacoes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#547#548#0" expanded="true" />
@@ -1321,8 +1312,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/smsc/Service/DataReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.030303">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="41" />
+        <state vertical-scroll-proportion="-36.545456">
+          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1331,11 +1322,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/br/com/smsc/Service/DataReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0625">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.13881747">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
