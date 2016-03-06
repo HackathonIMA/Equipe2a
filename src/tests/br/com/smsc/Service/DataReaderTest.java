@@ -1,5 +1,6 @@
 package br.com.smsc.Service;
 
+import br.com.smsc.Entity.Informacoes;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -12,7 +13,7 @@ public class DataReaderTest {
 
     @Test
     public void testGetCSVContent_successConceicaoCoqueluche() throws Exception {
-        Map<String, String> actual = new DataReader().getCSVContent().getListaCampos().get(0);
+        Map<String, String> actual = new DataReader().getCSVContent(2015, "coqueluche").getListaCampos().get(0);
         HashMap<String, String> campos = new LinkedHashMap<>();
         campos.put("bairro", "Conceicao");
         campos.put("<1 Ano", "1");
@@ -28,12 +29,11 @@ public class DataReaderTest {
         Assert.assertEquals(campos.get("20-34"), actual.get("20-34"));
         Assert.assertEquals(campos.get("50-64"), actual.get("50-64"));
         Assert.assertEquals(campos.get("Total"), actual.get("Total"));
-
     }
 
     @Test
     public void testGetCSVContent_errorConceicaoCoqueluche() throws Exception {
-        Map<String, String> actual = new DataReader().getCSVContent().getListaCampos().get(0);
+        Map<String, String> actual = new DataReader().getCSVContent(2015, "coqueluche").getListaCampos().get(0);
         HashMap<String, String> campos = new LinkedHashMap<>();
         campos.put("bairro", "conceicao");
         campos.put("<1 Ano", "0");

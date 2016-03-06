@@ -1,6 +1,5 @@
 package br.com.smsc.Entity;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -9,9 +8,7 @@ import java.util.Map;
  */
 public class Informacoes {
     private String nome;
-    private int ano = 2015;
-    private int total;
-    private Map<String, String> campos;
+    private int ano;
     private List<Map<String, String>> listaCampos;
     public String getNome() {
         return nome;
@@ -31,15 +28,6 @@ public class Informacoes {
         return this;
     }
 
-    public Map<String, String> getCampos() {
-        return campos;
-    }
-
-    public Informacoes setCampos(Map<String, String> campos) {
-        this.campos = campos;
-        return this;
-    }
-
     public int getAno() {
         return ano;
     }
@@ -49,12 +37,4 @@ public class Informacoes {
         return this;
     }
 
-    public int getTotal() {
-        return total;
-    }
-
-    public Informacoes setTotal(int total) {
-        this.total = total;
-        return this;
-    }
 }
