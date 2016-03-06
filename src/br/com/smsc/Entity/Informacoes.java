@@ -2,6 +2,7 @@ package br.com.smsc.Entity;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by danielamorais on 3/5/16.
@@ -10,8 +11,8 @@ public class Informacoes {
     private String nome;
     private int ano;
     private int total;
-    private HashMap<String, List<IdadeInfo>> bairros;
-
+    private Map<String, String> campos;
+    private List<Map<String, String>> listaCampos;
     public String getNome() {
         return nome;
     }
@@ -21,12 +22,21 @@ public class Informacoes {
         return this;
     }
 
-    public HashMap<String, List<IdadeInfo>> getBairros() {
-        return bairros;
+    public List<Map<String, String>> getListaCampos() {
+        return listaCampos;
     }
 
-    public Informacoes setBairros(HashMap<String, List<IdadeInfo>> bairros) {
-        this.bairros = bairros;
+    public Informacoes setListaCampos(List<Map<String, String>> listaCampos) {
+        this.listaCampos = listaCampos;
+        return this;
+    }
+
+    public Map<String, String> getCampos() {
+        return campos;
+    }
+
+    public Informacoes setCampos(Map<String, String> campos) {
+        this.campos = campos;
         return this;
     }
 
