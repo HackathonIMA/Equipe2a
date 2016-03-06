@@ -1,38 +1,40 @@
 package br.com.smsc.Entity;
 
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * Created by danielamorais on 3/5/16.
  */
-public class Doenca {
+public class Informacoes {
     private String nome;
     private int ano;
     private int total;
-    private HashMap<String, IdadeInfo> bairros;
+    private HashMap<String, List<IdadeInfo>> bairros;
 
     public String getNome() {
         return nome;
     }
 
-    public Doenca setNome(String nome) {
+    public Informacoes setNome(String nome) {
         this.nome = nome;
         return this;
     }
 
-    public HashMap<String, IdadeInfo> getBairros() {
+    public HashMap<String, List<IdadeInfo>> getBairros() {
         return bairros;
     }
 
-    public void setBairros(HashMap<String, IdadeInfo> bairros) {
+    public Informacoes setBairros(HashMap<String, List<IdadeInfo>> bairros) {
         this.bairros = bairros;
+        return this;
     }
 
     public int getAno() {
         return ano;
     }
 
-    public Doenca setAno(int ano) {
+    public Informacoes setAno(int ano) {
         this.ano = ano;
         return this;
     }
@@ -41,7 +43,7 @@ public class Doenca {
         return total;
     }
 
-    public Doenca setTotal(int total) {
+    public Informacoes setTotal(int total) {
         this.total = total;
         return this;
     }
