@@ -47,10 +47,8 @@ public class DataReader {
     private void setFields(String content) {
         Map<String, String> myMap = new LinkedHashMap<>();
         String[] fields = content.split(";");
-        for (int j = 0; j < fields.length; j++) {
-            if (j + 1 >= fields.length - 1) break;
-            if (fields[j + 1].contains("Total")) break;
-            myMap.put(fields[j + 1].replaceAll("\"", ""), null);
+        for (int j = 1; j < fields.length; j++) {
+            myMap.put(fields[j].replaceAll("\"", ""), null);
         }
         info.setCampos(myMap);
     }

@@ -20,12 +20,15 @@ public class DataReaderTest {
         campos.put("10-14", "1");
         campos.put("20-34", "0");
         campos.put("50-64", "0");
+        campos.put("Total", "2");
         Assert.assertEquals(campos.get("bairro"), actual.get("bairro"));
         Assert.assertEquals(campos.get("<1 Ano"), actual.get("<1 Ano"));
         Assert.assertEquals(campos.get("5-9"), actual.get("5-9"));
         Assert.assertEquals(campos.get("10-14"), actual.get("10-14"));
         Assert.assertEquals(campos.get("20-34"), actual.get("20-34"));
         Assert.assertEquals(campos.get("50-64"), actual.get("50-64"));
+        Assert.assertEquals(campos.get("Total"), actual.get("Total"));
+
     }
 
     @Test

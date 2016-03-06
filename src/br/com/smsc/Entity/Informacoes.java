@@ -9,7 +9,7 @@ import java.util.Map;
  */
 public class Informacoes {
     private String nome;
-    private int ano;
+    private int ano = 2015;
     private int total;
     private Map<String, String> campos;
     private List<Map<String, String>> listaCampos;
